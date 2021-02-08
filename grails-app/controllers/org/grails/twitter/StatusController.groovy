@@ -1,5 +1,5 @@
 package org.grails.twitter
-
+import org.grails.twitter.PersonController
 import grails.plugin.springsecurity.annotation.Secured
 import java.security.Principal
 import org.grails.twitter.auth.Person

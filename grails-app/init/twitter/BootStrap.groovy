@@ -20,6 +20,8 @@ class BootStrap {
         createPerson 'Lari', 'Hotari'
         createPerson 'Graeme', 'Rocher'
         createPerson 'Matthew', 'Moss'
+        createPerson 'Datta', 'Muss'
+
     }
 
     def destroy = {

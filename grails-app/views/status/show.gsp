@@ -29,7 +29,7 @@
 
             <h1>Latest Messages by ${person.displayName}</h1>
             <g:if test="${!messages}">none</g:if>
-            <twitter:renderMessages messages="${messages}"/>
+            <twitter:renderMe3ssages messages="${messages}"/>
         </div>
     </body>
 </html>

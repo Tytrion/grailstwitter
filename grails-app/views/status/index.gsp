@@ -1,9 +1,15 @@
+
 <html>
+<%@ page import="org.grails.twitter.auth.Person" %>
+
+
 <head>
     <meta name="layout" content="main"/>
     <title>What Are You Doing?</title>
+
 </head>
 <body>
+
     <g:set var="displayName"><twitter:renderCurrentUserName /></g:set>
 
     <g:render template="/navbar" />
@@ -26,15 +32,15 @@
             </div>
             <div id="following" class="panel">
                 <h2><g:message code="status.followingList.label" /></h2>
-                <g:render template="/status/peopleList" model="[people: following]" />
+                <g:render template="/person/peopleList" model="[people: following]" />
             </div>
             <div id="followers" class="panel">
                 <h2><g:message code="status.followersList.label" /></h2>
-                <g:render template="/status/peopleList" model="[people: followers]" />
+                <g:render template="/person/peopleList" model="[people: followers]" />
             </div>
             <div id="otherUsers" class="panel">
                 <h2><g:message code="status.otherUsersList.label" /></h2>
-                <g:render template="/status/peopleList" model="[people: otherUsers]" />
+                <g:render template="/person/peopleList" model="[people: otherUsers]" />
             </div>
         </div>
         <div class="column mainboard">

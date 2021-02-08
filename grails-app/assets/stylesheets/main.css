@@ -48,7 +48,7 @@ body {
 }
 
 a:link, a:visited, a:hover {
-    color: #48802c;
+    color: blue;
 }
 
 a:hover, a:active {
@@ -56,7 +56,7 @@ a:hover, a:active {
 }
 
 h1 {
-    color: #48802c;
+    color: black;
     font-weight: normal;
     font-size: 1.25em;
     margin: 0.8em 0 0.3em 0;
