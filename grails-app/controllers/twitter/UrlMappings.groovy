@@ -6,6 +6,7 @@ class UrlMappings {
         "/login/$action?"(controller: 'login')
         "/logout/$action?"(controller: 'logout')
         "/status"(controller: 'status', action: 'index')
+        "/status/show/${id}"(controller: 'person', action: 'show')
         "/updateStatus"(controller: 'status', action: 'updateStatus')
         "/person/index"(controller: 'person', action: 'index')
         "/person/show/${id}"(controller: 'person', action: 'show')

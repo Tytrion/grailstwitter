@@ -62,4 +62,8 @@ class StatusService {
             timelineService.clearTimelineCacheForUser(currentUser.userName)
         }
     }
+
+
+
 }
+
